@@ -56,3 +56,18 @@ Expense.java: The data model for a single expense entry.
 ExpenseDataHandler.java: A utility class for handling the reading and writing of data to the expenses.csv file.
 
 expenses.csv: The file where all user and expense data is stored. This file is automatically created and managed by the application.
+
+
+. Project Directory Structure
+First, organize your project files in the standard Maven directory structure. Create a main project folder, then set up the following subdirectories:
+
+expense-tracker/
+├── pom.xml
+└── src/
+    └── main/
+        └── java/
+            ├── ExpenseTrackerApp.java
+            ├── Expense.java
+            ├── User.java
+            └── ExpenseDataHandler.java
+Place all the Java files (ExpenseTrackerApp.java, Expense.java, User.java, and ExpenseDataHandler.java) inside the src/main/java/ directory.
